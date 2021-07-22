@@ -20,6 +20,29 @@ section{
     align-items: center;
 }
 
+header{
+    padding-top: 5%;
+    padding-left: 10%;
+}
+
+img{
+    height: 15%; 
+    width: 15%;
+}
+.company, header{
+    background-image: url(../img/desk.jfif);
+    color: black;
+}
+
+.adress{
+    background-image:linear-gradient(to top, #27292d, black);
+}
+
+.product{
+    background-image: url(../img/sky.jfif);
+    color:black;
+}
+
 .texto, .form{
   height:70vh;
   width: 50vw;
