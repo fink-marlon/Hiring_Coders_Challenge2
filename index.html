@@ -23,7 +23,7 @@
        <div class="form">
          <form id="empresa">
             <input type="text" id="rz" required  placeholder="Razão Social">
-            <input type="text" id="cnpj" required  placeholder="CNPJ" maxlength="14" minlength="14">
+            <input type="text" id="cnpj" required onkeypress="return event.charCode >= 48 && event.charCode <= 57" placeholder="CNPJ" maxlength="14" minlength="14">
             <input type="text" id="email" required  placeholder="E-maill">
             <button type="submit" class="botao">Enviar </button>
          </form>
